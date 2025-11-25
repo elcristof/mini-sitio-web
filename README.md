@@ -1,4 +1,4 @@
 Trabajo Escrito.
-![WhatsApp Image 2025-11-25 at 3 19 33 PM](https://github.com/user-attachments/assets/a50cb664-ae0f-43f4-b38e-93b9a8929ba0)
-![WhatsApp Image 2025-11-25 at 3 19 33 PM (1)](https://github.com/user-attachments/assets/c5d14b5a-67d2-48de-8522-b7bbf0506d33)
-![WhatsApp Image 2025-11-25 at 3 19 33 PM (1)](https://github.com/user-attachments/assets/1b7d71f1-8f27-417d-a7b5-a587286f1e8c)
+![WhatsApp Image 2025-11-25 at 3 19 33 PM](https://github.com/user-attachments/assets/6465894f-0eef-4c39-8f19-9ab71d5b82b4)
+![WhatsApp Image 2025-11-25 at 3 19 33 PM (1)](https://github.com/user-attachments/assets/d79a3cb6-3c23-494b-aea7-d36229962308)
+![WhatsApp Image 2025-11-25 at 3 19 33 PM (2)](https://github.com/user-attachments/assets/bd3aa49b-5d4d-421b-80ff-90b5016bffbf)

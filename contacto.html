@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto y oración</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1> La sal del mundo</h1>
+        <nav>
+            <a href="index.html">inicio</a>
+            <a href="versiculo.html">versiculo</a>
+            <a href="contacto.html" class="activo">contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <h2>escribeme</h2>
+            
+            <form id="miForm" novalidate>
+                <label>nombre *</label>
+                <input type="text" id="nombre" required>
+
+                <label>correo *</label>
+                <input type="email" id="email" required>
+
+                <label>mensaje u oracion *</label>
+                <textarea id="mensaje" required minlength="10" rows="5"></textarea>
+
+                <button type="submit" class="boton">Enviar</button>
+            </form>
+
+            <p id="exito" class="exito oculto">¡Mensaje enviado! Gracias por escribirnos.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p> Yo pondre todo en su lugar. Ten paciencia y espera</p>
+    </footer>
+
+    <script>
+        document.getElementById("miForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+            let ok = true;
+
+            if (document.getElementById("nombre").value.trim().length < 2) ok = false;
+            if (!document.getElementById("email").value.includes("@")) ok = false;
+            if (document.getElementById("mensaje").value.trim().length < 10) ok = false;
+
+            if (ok) {
+                document.getElementById("exito").classList.remove("oculto");
+                this.reset();
+            } else {
+                alert("Por favor completa todos los campos correctamente");
+            }
+        });
+    </script>
+</body>
+</html>
